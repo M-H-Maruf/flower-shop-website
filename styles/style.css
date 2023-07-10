@@ -183,3 +183,36 @@ margin: auto;
 .newsletter h2{
     margin: 0px;
 }
+
+/* testimonial styles */
+.testimonials{
+    background-color: rgba(229, 84, 115, 0.05);
+}
+.testimonials h2{
+    margin: 50px 0px 0px;
+}
+.testimonials p{
+    margin: 0px 0px 50px;
+}
+.testimonial-container{
+    display: flex;
+    width: 70vw;
+    gap: 3vw;
+margin: auto;
+}
+.testimonial-description{
+    text-align: center;
+}
+.testimonial{
+    width: 21vw;
+    text-align: center;
+    box-shadow: 10px 10px 5px #441721;
+    background-color: rgba(229, 84, 115, 0.05);
+    padding: 5px;
+    margin: 0px 0px 50px;
+    border-radius: 10px;
+}
+.testimonial small{
+    text-align: left;
+    color: #27272760;
+}

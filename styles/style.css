@@ -28,6 +28,10 @@
     line-height: 30px;
     margin: 32px 0px;
 }
+.aligner{
+    display: flex;
+    justify-content: center;
+}
 
 /* banner styles */
 .banner-container {
@@ -57,23 +61,27 @@
 .featured {
     margin: 150px 0px;
     text-align: center;
+    width: 1200px;
 }
 .featured > p {
     margin: 24px;
 }
 .featured-card-container {
     display: flex;
-    gap: 24px;
+    gap: .5vw;
     justify-content: center;
     margin-top: 40px;
 }
+.featured-card{
+    width: 23vw;
+}
 .card {
-    width: 400px;
-    height: 500px;
+    width: 23vw;
+    height: 400px;
     border-radius: 200px 200px 0px 0px;
     background-repeat: no-repeat;
     background-position: bottom;
-    background-size: 300px auto;
+    background-size: 16vw auto;
 }
 .card-1 {
     background-color: rgba(167, 33, 98, 0.15);    
@@ -97,4 +105,18 @@
     line-height: 35px;
     text-decoration-line: underline;
     margin-top: 30px;
+}
+
+/* service styles */
+
+.service-card-container{
+    display: flex;
+    width: 70vw;
+    background-color: rgba(39, 39, 39, 0.05);
+    justify-content: space-around;
+    border-radius: 1.5vh;
+}
+.service-card{
+    text-align: center;
+    padding: 2vw;
 }

@@ -28,7 +28,7 @@
     line-height: 30px;
     margin: 32px 0px;
 }
-.aligner{
+.aligner {
     display: flex;
     justify-content: center;
 }
@@ -68,11 +68,11 @@
 }
 .featured-card-container {
     display: flex;
-    gap: .5vw;
+    gap: 0.5vw;
     justify-content: center;
     margin-top: 40px;
 }
-.featured-card{
+.featured-card {
     width: 23vw;
 }
 .card {
@@ -84,7 +84,7 @@
     background-size: 16vw auto;
 }
 .card-1 {
-    background-color: rgba(167, 33, 98, 0.15);    
+    background-color: rgba(167, 33, 98, 0.15);
     background-image: url("../images/pngwing\ 6.png");
 }
 .card-2 {
@@ -108,15 +108,37 @@
 }
 
 /* service styles */
-
-.service-card-container{
+.service-card-container {
     display: flex;
     width: 70vw;
     background-color: rgba(39, 39, 39, 0.05);
     justify-content: space-around;
     border-radius: 1.5vh;
 }
-.service-card{
+.service-card {
     text-align: center;
     padding: 2vw;
+}
+
+/* deal styles */
+.deal {
+    display: flex;
+    margin: 150px 0px;
+    background-color: rgba(229, 84, 115, 0.05);
+    align-items: center;
+    justify-content: space-around;
+}
+.deal-left {
+    width: 50vw;
+    text-align: center;
+}
+.deal-right {
+    text-align: center;
+}
+.deal-right img{
+    width: 300px;
+    padding: 50px;
+}
+.deal-left span{
+    color: #e55473;
 }

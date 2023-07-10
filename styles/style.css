@@ -150,7 +150,7 @@
 .insta-card-container {
     display: flex;
     width: 70vw;
-margin: auto;
+    margin: auto;
     gap: 2vw;
 }
 .insta-card-container img {
@@ -158,7 +158,7 @@ margin: auto;
 }
 
 /* newsletter styles */
-.newsletter{
+.newsletter {
     margin: 150px auto;
     padding: 80px 0px;
     border-radius: 10px;
@@ -168,7 +168,7 @@ margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.newsletter .email{
+.newsletter .email {
     background-color: #fff;
     margin-right: 15px;
     border-radius: 8px;
@@ -180,30 +180,30 @@ margin: auto;
     width: 30vw;
     text-align: left;
 }
-.newsletter h2{
+.newsletter h2 {
     margin: 0px;
 }
 
 /* testimonial styles */
-.testimonials{
+.testimonials {
     background-color: rgba(229, 84, 115, 0.05);
 }
-.testimonials h2{
+.testimonials h2 {
     margin: 50px 0px 0px;
 }
-.testimonials p{
+.testimonials p {
     margin: 0px 0px 50px;
 }
-.testimonial-container{
+.testimonial-container {
     display: flex;
     width: 70vw;
     gap: 3vw;
-margin: auto;
+    margin: auto;
 }
-.testimonial-description{
+.testimonial-description {
     text-align: center;
 }
-.testimonial{
+.testimonial {
     width: 21vw;
     text-align: center;
     box-shadow: 10px 10px 5px #441721;
@@ -212,7 +212,35 @@ margin: auto;
     margin: 0px 0px 50px;
     border-radius: 10px;
 }
-.testimonial small{
+.testimonial small {
     text-align: left;
     color: #27272760;
+}
+
+/* footer styles */
+footer {
+    height: 50vh;
+    background-color: #111010;
+    margin-top: 100px;
+    text-align: center;
+    padding-top: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .section-title {
+    color: #e55473;
+}
+footer span {
+    color: white;
+}
+footer .section-description {
+    color: rgba(255, 255, 255, 0.9);
+    margin: 20px;
+}
+footer small {
+    color: rgba(255, 255, 255, 0.4);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
 }

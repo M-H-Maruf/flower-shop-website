@@ -135,10 +135,24 @@
 .deal-right {
     text-align: center;
 }
-.deal-right img{
+.deal-right img {
     width: 300px;
     padding: 50px;
 }
-.deal-left span{
+.deal-left span {
     color: #e55473;
+}
+
+/* instagram styles */
+.instagram {
+    text-align: center;
+}
+.insta-card-container {
+    display: flex;
+    width: 70vw;
+margin: auto;
+    gap: 2vw;
+}
+.insta-card-container img {
+    width: 16vw;
 }

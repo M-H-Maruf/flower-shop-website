@@ -1,46 +1,100 @@
 /* shared styles */
 * {
-  margin: 0px;
-  padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 .btn {
-  border-radius: 8px;
-  background: #e55473;
-  padding: 20px 43px;
-  border: none;
-  color: #fff;
-  font-family: Lato;
-  font-size: 20px;
-  font-weight: 700;
+    border-radius: 8px;
+    background: #e55473;
+    padding: 20px 43px;
+    border: none;
+    color: #fff;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 700;
 }
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+.section-description {
+    color: rgba(39, 39, 39, 0.6);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 32px 0px;
+}
+
 /* banner styles */
 .banner-container {
-  display: flex;
-  height: 100vh;
-  background: rgba(229, 84, 115, 0.1);
-  justify-content: space-around;
+    display: flex;
+    height: 100vh;
+    background: rgba(229, 84, 115, 0.1);
+    justify-content: space-around;
 }
-.banner-left{
+.banner-left {
     max-width: 700px;
     margin: auto;
 }
 .banner-title {
-  color: #272727;
-  font-family: Lato;
-  font-size: 80px;
-  font-weight: 900;
-}
-.banner-description {
-  color: rgba(39, 39, 39, 0.6);
-  font-family: Lato;
-  font-size: 18px;
-  font-weight: 400;
-  line-height: 30px;
-  margin: 32px 0px;
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-weight: 900;
 }
 .banner-right > img {
-  height: 95vh;
-  position: relative;
-  top: 5vh;
-  margin: auto;
+    height: 95vh;
+    position: relative;
+    top: 5vh;
+    margin: auto;
+}
+
+/* featured styles */
+.featured {
+    margin: 150px 0px;
+    text-align: center;
+}
+.featured > p {
+    margin: 24px;
+}
+.featured-card-container {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    margin-top: 40px;
+}
+.card {
+    width: 400px;
+    height: 500px;
+    border-radius: 200px 200px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 300px auto;
+}
+.card-1 {
+    background-color: rgba(167, 33, 98, 0.15);    
+    background-image: url("../images/pngwing\ 6.png");
+}
+.card-2 {
+    background-color: rgba(5, 151, 160, 0.15);
+    background-image: url("../images/pngwing\ 5.png");
+    background-position: center;
+}
+.card-3 {
+    background-color: rgba(71, 125, 17, 0.15);
+    background-image: url("../images/pngwing\ 7.png");
+}
+.card-caption {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 30px;
 }

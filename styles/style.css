@@ -204,16 +204,15 @@
     text-align: center;
 }
 .testimonial {
-    width: 21vw;
+    width: 15vw;
     text-align: center;
     box-shadow: 10px 10px 5px #441721;
     background-color: rgba(229, 84, 115, 0.05);
-    padding: 5px;
+    padding: 3vw;
     margin: 0px 0px 50px;
     border-radius: 10px;
 }
 .testimonial small {
-    text-align: left;
     color: #27272760;
 }
 

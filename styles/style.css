@@ -215,6 +215,13 @@
 .testimonial small {
     color: #27272760;
 }
+.testimonial .section-description{
+    font-family: antonio;
+}
+.testimonial img{
+    width: 90px;
+    margin-bottom: 2px;
+}
 
 /* footer styles */
 footer {
